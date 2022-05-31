@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Fredericka+the+Great&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Fredericka+the+Great&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/imc.css">
+    <title>Mantenete Sano</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <li><a href="/index.html">Inicio</a></li>
+        </nav>
+        <h1>Mantenete Sano</h1>
+    </header>
+    <main>
+        <h2>Calcula tu IMC</h2>
+        <form>
+            <div class="imc">
+                <label class="h2" for="">¿Cuanto pesas?</label>
+                <input id="txtPeso" type="Ingrese su peso aqui">
+            </div>
+            <div class="imc">
+                <label class="h2" for="">¿Cuanto medis?</label>
+                <input id="txtAltura" type="Ingrese su medida aqui">
+            </div>
+            <button id="btnCalcular">Calcular</button>
+        </form>
+        <section>
+            <h2>Resultado</h2>
+            <div id="resultado"></div>
+        </section>
+        <div class="img1">
+            <h2>Compara tu resultado</h2>
+            <img src="/img/tabla.png" alt="">
+        </div>
+        
+    </main>
+    <footer>
+        <div class="txf">
+            <p class="p">Instagram/Facebook</p>
+            <p class="p">4444-4444</p>
+            <p class="p">mantentesano@gmail.com</p>
+        </div>
+    </footer>
+    <script src="/js/imc.js"></script>
+</body>
+</html>
